@@ -1,0 +1,5 @@
+botasaurus==4.0.88
+botasaurus-humancursor==4.0.83
+botasaurus_driver==4.0.91
+google-genai==1.45.0
+python-dotenv==1.0.1
