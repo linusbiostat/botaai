@@ -116,7 +116,7 @@ def execute_tool_call(function_name: str, arguments: Dict[str, Any]) -> Any:
     if function_name == "click":
         return driver.click(arguments["selector"])
     elif function_name == "type":
-        return driver.type(arguments["selector"], arguments["text"])
+        return driver.type(selector = arguments["selector"], text = arguments["text"])
     elif function_name == "get_text":
         return driver.get_text(arguments["selector"])
     elif function_name == "stop_browsing":
